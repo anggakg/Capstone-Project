@@ -34,7 +34,7 @@ helm install aks azure-marketplace/moodle
 ```
 kubectl get pods -w
 ```
-6. Melihat IP Eksternal Load Balancer
+6. Melihat IP Eksternal Load Balancer (IP Public)
 ```
 export SERVICE_IP=$(kubectl get svc --namespace default aks-moodle --template "{{ range (index .status.loadBalancer.ingress 0) }}{{.}}{{ end }}")
 echo "Moodle&trade; URL: http://$SERVICE_IP/"
