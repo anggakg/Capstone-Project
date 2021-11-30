@@ -1,4 +1,4 @@
-# Capstone-Project
+# Capstone-Project Cloud Computing Bidang Pendidikan
 
 ### Mendeploy LMS Moodle menggunakan Helm ke Azure Kubernetes Service
 
